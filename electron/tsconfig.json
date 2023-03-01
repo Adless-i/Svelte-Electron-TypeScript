@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+    	"types": [
+			"node","electron"
+		],
+	  "module": "CommonJS",
+	  "moduleResolution": "node",
+	  "esModuleInterop": true,
+	  "outDir": "./dist",
+	  "removeComments": true,
+	  "target": "ES5"
+	},
+	"include": ["./*.ts"],
+	"exclude": [
+	  "node_modules" ,"public","dist"
+	]
+}
+  
+  
